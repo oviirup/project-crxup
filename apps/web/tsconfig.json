@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/tsconfig/react.json",
+  "extends": "@chronzo/tsconfig/react.json",
   "compilerOptions": {
     "allowJs": true,
     "noEmit": true,

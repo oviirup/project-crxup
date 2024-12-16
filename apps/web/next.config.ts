@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   //enable fetch logging
   logging: { fetches: { fullUrl: true, hmrRefreshes: true } },
   // transpile workspace packages
-  transpilePackages: ['@repo/ui', '@repo/lib'],
+  transpilePackages: ['@chronzo/lib'],
 };
 
 export default nextConfig;

@@ -21,10 +21,10 @@
     "start:web": "turbo start --filter web"
   },
   "devDependencies": {
-    "@repo/prettier": "workspace:*",
-    "@types/node": "~20.17.9",
+    "@chronzo/prettier": "workspace:*",
+    "@types/node": "~20.17.10",
     "turbo": "~2.3.3",
     "typescript": "~5.5.4",
-    "vitest": "~2.1.6"
+    "vitest": "~2.1.8"
   }
 }

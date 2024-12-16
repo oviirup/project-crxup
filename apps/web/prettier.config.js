@@ -1,4 +1,4 @@
-import prettierPresets from '@repo/prettier';
+import prettierPresets from '@chronzo/prettier';
 
 const config = {
   ...prettierPresets,

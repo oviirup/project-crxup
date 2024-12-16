@@ -2,9 +2,6 @@
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "editor.formatOnSave": true,
   "explorer.sortOrder": "type",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always"
-  },
   // allow tailwind directives in css & scss
   "css.validate": false,
   "scss.validate": false,
@@ -31,6 +28,6 @@
   // prettier-ignore
   "cSpell.words": [
     "envalid","hookform","inter","rehype","tailwindcss","webp","zod","shiki",
-    "pluggables"
+    "pluggables","chronzo"
   ]
 }
