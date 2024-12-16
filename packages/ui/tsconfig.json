@@ -1,8 +1,0 @@
-{
-  "extends": "@repo/tsconfig/react.json",
-  "compilerOptions": {
-    "paths": { "@/*": ["./src/*"] }
-  },
-  "include": ["src/**/*.ts", "tests/**/*.ts"],
-  "exclude": ["node_modules"]
-}
