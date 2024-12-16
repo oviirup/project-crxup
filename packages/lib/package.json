@@ -1,0 +1,26 @@
+{
+  "name": "@repo/lib",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./assertions": "./src/assertions.ts",
+    "./helpers": "./src/helpers.ts"
+  },
+  "scripts": {
+    "clean": "npx rimraf node_modules .turbo",
+    "lint": "eslint src --max-warnings 0",
+    "test": "vitest --run"
+  },
+  "dependencies": {
+    "@scure/base": "~1.1.9",
+    "@sindresorhus/transliterate": "~1.6.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
+    "@types/node": "~20.17.9",
+    "typescript": "~5.5.4",
+    "zod": "~3.23.8"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "vitest.explorer",
+    "timgthomas.explorer-gitignore",
+    "redhat.vscode-yaml",
+    "github.vscode-github-actions"
+  ]
+}

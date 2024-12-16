@@ -1,0 +1,17 @@
+# repository
+.vercel
+.turbo
+.next
+node_modules
+
+# temporary files
+*.temp.*
+*.bkp
+
+# debug
+*-debug.log*
+*-error.log*
+
+# local env files
+.env*
+~.env.example

@@ -1,0 +1,6 @@
+.next
+.turbo
+.vercel
+out
+*.tsbuildinfo
+next-env.d.ts
