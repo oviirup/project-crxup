@@ -16,7 +16,6 @@
     "format": "prettier . -w -u --cache",
     "lint": "turbo run lint --parallel",
     "lint:repo": "npx sherif",
-    "prepare": "husky",
     "start": "turbo start",
     "start:web": "turbo start --filter web"
   },
@@ -25,14 +24,8 @@
     "@changesets/cli": "~2.27.10",
     "@crxup/prettier": "workspace:*",
     "@types/node": "~20.17.10",
-    "husky": "~9.1.7",
-    "lint-staged": "~15.2.11",
     "turbo": "~2.3.3",
     "typescript": "~5.5.4",
     "vitest": "~2.1.8"
-  },
-  "lint-staged": {
-    "*": "prettier --check -u",
-    "*.{ts,tsx,js,jsx,cjs}": "eslint"
   }
 }
