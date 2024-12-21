@@ -1,5 +1,5 @@
 {
-  "name": "@chronzo/eslint-config",
+  "name": "@crxup/eslint-config",
   "private": true,
   "scripts": {
     "clean": "npx rimraf node_modules"

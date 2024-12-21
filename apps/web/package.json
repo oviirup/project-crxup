@@ -20,9 +20,9 @@
     "tailwind-merge": "~2.5.5"
   },
   "devDependencies": {
-    "@chronzo/eslint-config": "workspace:*",
-    "@chronzo/prettier": "workspace:*",
-    "@chronzo/tsconfig": "workspace:*",
+    "@crxup/eslint-config": "workspace:*",
+    "@crxup/prettier": "workspace:*",
+    "@crxup/tsconfig": "workspace:*",
     "@types/node": "~20.17.10",
     "@types/react": "~19.0.1",
     "@types/react-dom": "~19.0.2",

@@ -1,5 +1,5 @@
 {
-  "name": "@chronzo/prettier",
+  "name": "@crxup/prettier",
   "private": true,
   "main": "./prettier.config.js",
   "scripts": {

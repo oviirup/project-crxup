@@ -1,5 +1,5 @@
 {
-  "name": "@chronzo/lib",
+  "name": "@crxup/lib",
   "version": "0.0.0",
   "type": "module",
   "private": true,
@@ -17,8 +17,8 @@
     "@sindresorhus/transliterate": "~1.6.0"
   },
   "devDependencies": {
-    "@chronzo/eslint-config": "workspace:*",
-    "@chronzo/tsconfig": "workspace:*",
+    "@crxup/eslint-config": "workspace:*",
+    "@crxup/tsconfig": "workspace:*",
     "@types/node": "~20.17.10",
     "typescript": "~5.5.4",
     "zod": "~3.24.1"

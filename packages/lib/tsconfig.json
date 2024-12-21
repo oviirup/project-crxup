@@ -1,5 +1,5 @@
 {
-  "extends": "@chronzo/tsconfig/base.json",
+  "extends": "@crxup/tsconfig/base.json",
   "compilerOptions": {
     "paths": { "@/*": ["./src/*"] }
   },

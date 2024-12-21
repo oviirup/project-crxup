@@ -1,5 +1,5 @@
 {
   "root": true,
-  "extends": ["@chronzo/eslint-config/library.js"],
+  "extends": ["@crxup/eslint-config/library.js"],
   "parser": "@typescript-eslint/parser"
 }

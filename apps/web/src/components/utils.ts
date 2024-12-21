@@ -1,4 +1,4 @@
-import { isArray } from '@chronzo/lib/assertions';
+import { isArray } from '@crxup/lib/assertions';
 import { ClassNameValue, twMerge } from 'tailwind-merge';
 
 /**

@@ -1,9 +1,9 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.0.3/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "oviirup/project-chronzo" }],
+  "changelog": ["@changesets/changelog-github", { "repo": "oviirup/project-crxup" }],
   "commit": false,
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["web", "@chronzo/lib"]
+  "ignore": ["web", "@crxup/lib"]
 }

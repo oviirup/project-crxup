@@ -1,7 +1,8 @@
-import prettierPresets from '@chronzo/prettier';
+import prettierPresets from '@crxup/prettier';
 
-const config = {
+const prettierConfig = {
   ...prettierPresets,
   tailwindConfig: 'tailwind.config.ts',
 };
-export default config;
+
+export default prettierConfig;
