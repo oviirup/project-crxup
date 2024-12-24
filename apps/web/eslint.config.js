@@ -1,3 +1,5 @@
 import nextConfig from '@crxup/eslint/next';
 
-export default nextConfig;
+const config = [...nextConfig, { settings: { tailwind: { config: './tailwind.config.ts' } } }];
+
+export default config;
