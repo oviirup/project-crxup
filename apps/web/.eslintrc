@@ -1,8 +1,0 @@
-{
-  "root": true,
-  "extends": ["@crxup/eslint-config/next.js"],
-  "parser": "@typescript-eslint/parser",
-  "settings": {
-    "tailwindcss": { "config": "tailwind.config.ts" }
-  }
-}

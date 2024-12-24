@@ -17,10 +17,10 @@
     "@sindresorhus/transliterate": "~1.6.0"
   },
   "devDependencies": {
-    "@crxup/eslint-config": "workspace:*",
+    "@crxup/eslint": "workspace:*",
     "@crxup/tsconfig": "workspace:*",
-    "@types/node": "~20.17.10",
-    "typescript": "~5.5.4",
+    "@types/bun": "~1.1.14",
+    "typescript": "~5.6.3",
     "zod": "~3.24.1"
   }
 }
