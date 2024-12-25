@@ -1,0 +1,19 @@
+{
+  "name": "@crxup/polyfill",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oviirup/project-crxup.git",
+    "directory": "packages/polyfill"
+  },
+  "author": "Avirup Ghosh (https://github.com/oviirup)",
+  "license": "MIT",
+  "devDependencies": {
+    "@crxup/eslint": "workspace:*",
+    "@crxup/tsconfig": "workspace:*",
+    "@types/bun": "~1.1.14",
+    "@types/chrome": "^0.0.287",
+    "tsup": "~8.3.5",
+    "typescript": "~5.6.3"
+  }
+}

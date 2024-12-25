@@ -1,5 +1,5 @@
 {
-  "extends": "@crxup/tsconfig/base.json",
+  "extends": "@crxup/tsconfig/react.json",
   "compilerOptions": {
     "paths": { "~/*": ["./src/*"] }
   },

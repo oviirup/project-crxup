@@ -2,6 +2,8 @@
   "name": "@crxup/lib",
   "version": "0.0.0",
   "type": "module",
+  "author": "Avirup Ghosh (https://github.com/oviirup)",
+  "license": "MIT",
   "private": true,
   "exports": {
     "./assertions": "./src/assertions.ts",

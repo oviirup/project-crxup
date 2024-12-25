@@ -1,0 +1,23 @@
+{
+  "name": "@crxup/storage",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oviirup/project-crxup.git",
+    "directory": "packages/storage"
+  },
+  "author": "Avirup Ghosh (https://github.com/oviirup)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  },
+  "devDependencies": {
+    "@crxup/eslint": "workspace:*",
+    "@crxup/tsconfig": "workspace:*",
+    "@types/bun": "~1.1.14",
+    "@types/react": "~19.0.2",
+    "react": "~19.0.0",
+    "tsup": "~8.3.5",
+    "typescript": "~5.6.3"
+  }
+}
