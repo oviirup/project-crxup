@@ -1,6 +1,6 @@
 import plugin_react from 'eslint-plugin-react';
 import plugin_reactHooks from 'eslint-plugin-react-hooks';
-import plugin_tailwindcss from 'eslint-plugin-tailwindcss';
+import plugin_tailwind from 'eslint-plugin-tailwindcss';
 import globals from 'globals';
 import baseConfig from './base.js';
 
@@ -28,6 +28,19 @@ const config = [
       ...plugin_reactHooks.configs.recommended.rules,
       // React scope no longer necessary with new JSX transform.
       'react/react-in-jsx-scope': 'off',
+    },
+  },
+  // tailwindcss plugin
+  ...plugin_tailwind.configs['flat/recommended'],
+  {
+    rules: {
+      'tailwindcss/no-custom-classname': 'off',
+    },
+    settings: {
+      tailwindcss: {
+        callees: ['clsx', 'cn', 'cva'],
+        classRegex: '^(class|\\w+Class)Name$',
+      },
     },
   },
 ];
