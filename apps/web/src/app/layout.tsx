@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { cn } from '@/components/utils';
+import { cn } from '~/components/utils';
 import './global.scss';
 
 export const inter = Inter({

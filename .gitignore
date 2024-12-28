@@ -4,6 +4,11 @@
 .next
 node_modules
 
+# build output
+dist
+out
+build
+
 # temporary files
 *.temp.*
 *.bkp

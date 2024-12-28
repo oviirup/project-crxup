@@ -5,7 +5,7 @@ import {
   isEmptyObject,
   isFunction,
   isObject,
-} from '@/assertions';
+} from '~/assertions';
 import { describe, expect, it } from 'vitest';
 
 // Adjust the path as needed

@@ -1,4 +1,4 @@
-import { nanoid, slugify } from '@/helpers';
+import { nanoid, slugify } from '~/helpers';
 import { describe, expect, it } from 'vitest';
 
 describe('nanoid', () => {
